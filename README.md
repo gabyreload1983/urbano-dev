@@ -16,8 +16,6 @@ To set up MySQL Database and get it running on your local development environmen
 ### Prerequisites
 
 - Linux or Windows
-- Visual Studio
-- NODE.js >= 18
 - Workbench
 - Docker
 - Dcoker-Compose
