@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  urbano-dev:
+    image: mysql:5.5.62
+    container_name: urbano-dev
+    restart: always
+    ports:
+      - "xxxx:xxxx"
+    environment:
+      - MYSQL_ROOT_PASSWORD=CHANGE_PASSWORD
+      - MYSQL_DATABASE=CHANGE_DATABASE_NAME
+    volumes:
+      - ~/path/db:/var/lib/mysql
